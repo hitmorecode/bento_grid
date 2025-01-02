@@ -118,22 +118,28 @@ h1 {
   height: 60.3rem;
   background-color: var(--purple-100);
   padding: 4.2rem 0 5rem 3.2rem;
+  display: flex;
 }
 
 #schedule h2 {
   font-size: 3.3rem;
   letter-spacing: -0.25rem;
   line-height: 3rem;
-  margin-bottom: 2.7rem;
+  /* margin-bottom: 2.7rem; */
 }
 
 #schedule-article {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #schedule-article img {
   height: 31.9rem;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */
+  margin-left: auto;
 }
 
 #schedule-article p {
